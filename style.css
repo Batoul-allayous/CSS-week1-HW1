@@ -1,0 +1,84 @@
+/* General page styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #222222;
+    background-color: #ffffff;
+}
+
+/* Header styles */
+header {
+    background-color: #e8f1f5;
+    padding: 25px;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #16324f;
+    padding: 15px;
+}
+
+/* Main content styles */
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 25px;
+    min-height: 300px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #16324f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* List item styles */
+li {
+    display: inline-block;
+    width: 20%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #16324f;
+}
+
+/* Paragraph styles */
+p {
+    line-height: 1.6;
+}
+
+/* Navigation links */
+nav a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Keyboard accessibility */
+a:focus-visible {
+    outline: 3px solid #b54708;
+    outline-offset: 3px;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+    li {
+        display: block;
+        width: 100%;
+    }
+
+    header,
+    main,
+    footer {
+        padding: 15px;
+    }
+}
